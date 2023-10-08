@@ -3,7 +3,7 @@ import Details from '@/components/Details'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import Subscription from '@/components/Subscription'
-import Image from 'next/image'
+
 import { useState } from 'react'
 
 export default function Home() {
@@ -12,8 +12,8 @@ export default function Home() {
     <div>
       <Header setColor={setColor} color={color}></Header>
       <Details color={color}></Details>
-      <Subscription></Subscription>
-      <Footer></Footer>
+      <Subscription color={color}></Subscription>
+      <Footer color={color}></Footer>
     </div>
   )
 }

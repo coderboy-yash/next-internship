@@ -4,15 +4,15 @@ const Header = ({ color, setColor }) => {
     return (
         <div>
             <div className={`w-full h-52 bg-${color} absolute`}>
-                <div className='p-6 w-1/2 ml-10'>
-                    <h1 className='text-white text-6xl   mb-3'>
+                <div className='md:p-6 p-2 md:w-1/2 ml-10 w-2/3'>
+                    <h1 className='text-white md:text-6xl text-4xl   mb-3'>
                         Yash Nigam
                     </h1>
                     <div className='flex gap-4'>
-                        <h3 className='bg-yellow-400 text-md rounded-md p-1 w-16'>Active</h3>
+                        <h3 className='bg-yellow-400 text-md rounded-md h-7 p-1 w-16'>Active</h3>
                         <h3>
 
-                            <span className='text-white text-2xl' >user-Id: </span><span className='text-white text-2xl '>johndoe1985_ny</span>
+                            <span className='text-white md:text-2xl text-xl' >user-Id: </span><span className='text-white text-2xl '>johndoe1985_ny</span>
                         </h3>
                     </div>
                     <div className='mt-4 flex gap-1'>
@@ -26,7 +26,7 @@ const Header = ({ color, setColor }) => {
 
 
             </div>
-            <div className='flex justify-end px-20 py-20 '>
+            <div className='flex justify-end md:px-20 md:py-20 px-10 py-20'>
                 <Image
                     src="/assets/profile2.jpg"
                     width={400}
