@@ -2,26 +2,25 @@ import React from 'react'
 import Image from "next/image";
 const Subscription = () => {
     return (
-        <div className='h-96'>
+        <div className=''>
             <div className='mb-10 flex items-center '>
                 <div className='text-2xl font-bold text-blue-600 shadow-sm shadow-slate-500  w-1/4 p-4 m-4 mb-10 rounded-2xl'>Subscription details &rarr;</div>
-                <div className='shadow-sm text-2xl p-4 m-4 w-60 shadow-slate-500 border-blue-100 border-2'>
+                <div className='shadow-sm  p-6 m-4   shadow-slate-500 rounded-2xl capitalize text-xl border-b-4 border-r-4 border-blue-400  '>
+                    <div className='flex gap-3 justify-start mb-4 '>
+                        <span className='text-blue-600 text-xl'>plan type: </span> <span className='text-gray-500 font-semibold'>trial</span>
+
+                   
+                        <span className='text-blue-600 text-xl'>plan price: </span> <span className='text-gray-500 font-semibold'>0.0 USD</span>
+
+                    </div>
                     <div className='flex gap-3 justify-center'>
-                        <span className='text-blue-600 text-xl'>plan type: </span> <span>trial</span>
+                        <span className='text-blue-600 text-xl'>Started at: </span> <span className='text-gray-500 font-semibold'>26 sept 2022</span>
+
+                   
+                        <span className='text-blue-600 text-xl'>renewed at: </span> <span className='text-gray-500 font-semibold'>29 sept 2023</span>
 
                     </div>
-                    <div>
-                        <span className='text-blue-600 text-xl'>plan type: </span> <span>trial</span>
-
-                    </div>
-                    <div>
-                        <span className='text-blue-600 text-xl'>plan type: </span> <span>trial</span>
-
-                    </div>
-                    <div>
-                        <span className='text-blue-600 text-xl'>plan type: </span> <span>trial</span>
-
-                    </div>
+                   
 
                 </div>
             </div>
@@ -88,7 +87,7 @@ const Subscription = () => {
                         />
                         Hobby
                     </div>
-                    <h5 className="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">Current plan </h5>
+                    <h5 className="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">Best plan </h5>
                     <div className="flex items-baseline text-gray-900 dark:text-white">
                         <span className="text-5xl font-extrabold tracking-tight">40.0 </span>
                         <span className="text-3xl font-semibold ml-2">USD</span>
